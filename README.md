@@ -1,6 +1,6 @@
 # Nuxt 3 repository pattern
 
-This repository contains the code described in article [Nuxt 3 | Repository pattern: organising and managing your calls to APIs with Typescript](https://medium.com/@luizzappa/nuxt-3-repository-pattern-organising-and-managing-your-calls-to-apis-with-typescript-acd563a4e046). In it we use the repository design pattern for efficient organisation and management of API calls in Nuxt 3. 
+This repository contains the code described in article [Nuxt 3 | Repository pattern: organising and managing your calls to APIs (Typescript)](https://medium.com/@luizzappa/nuxt-3-repository-pattern-organising-and-managing-your-calls-to-apis-with-typescript-acd563a4e046). In it we use the repository design pattern for efficient organisation and management of API calls in Nuxt 3. 
 
 ## Setup
 
