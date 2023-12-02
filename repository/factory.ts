@@ -2,11 +2,11 @@
 import { $Fetch, FetchOptions } from 'ofetch';
 
 /*
- The HttpFactory acts as a wrapper around an HTTP client. 
+ The FetchFactory acts as a wrapper around an HTTP client. 
  It encapsulates the functionality for making API requests asynchronously 
  through the call function, utilizing the provided HTTP client.
 */
-class FetchFactory<T> {
+class FetchFactory {
   private $fetch: $Fetch;
 
   constructor(fetcher: $Fetch) {
@@ -21,7 +21,7 @@ class FetchFactory<T> {
    * @param fetchOptions fetch options
    * @returns 
    */
-  async call(
+  async call<T>(
     method: string,
     url: string,
     data?: object,
